@@ -1,0 +1,64 @@
+* {
+    margin:0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Georgia;
+    font-size: 1.5em;
+}
+
+.content img {
+    float:left;
+    margin: 0;
+    padding: 150px 15px 0px 150px;
+
+}
+
+.content {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    padding: 150px;
+    font-style: italic;
+    color: beige;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    line-height: 70px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*
+Assumes the existence of image files
+under folder /public/images/
+*/
+
+#sect1 {
+    background-image: url("../images/background.jpg");
+}  
+
+#sect2 {
+    background-image: url("../images/background.jpg");
+}
+#sect3 {
+    background-image: url("../images/photo3.jpg");
+}
